@@ -14,6 +14,16 @@ jobs:
     - name : Get output
       run: echo "The output parameter is set to ${{ steps.output-parameter-setter.outputs.OUTPUT_PARAM }}"
 
+    - name: Show the demo running
+      env:
+          VAR1: This is
+          VAR2: A Demo of
+          VAR3: GitHub Actions
+          VAR4: Workflow jobs
+      run: |
+          echo $VAR1 $VAR2 $VAR3 $VAR4.
+
+
     - uses: actions/checkout@v2
 
     - name: Use Node.js ${{ env.NODE_VERSION }}

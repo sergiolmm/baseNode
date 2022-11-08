@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.5400" tests="2" failures="0">
-  <testsuite name="Root Suite" timestamp="2022-11-08T01:50:19" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.3920" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-08T01:59:06" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="sampleUnitTests" timestamp="2022-11-08T01:50:19" tests="2" file="G:\PUCC\2sen\GCS\baseNode\test\unit-tests\test1.js" time="0.5400" failures="0">
-    <testcase name="sampleUnitTests Should return 200" time="0.4760" classname="Should return 200">
+  <testsuite name="sampleUnitTests" timestamp="2022-11-08T01:59:06" tests="2" file="G:\PUCC\2sen\GCS\baseNode\test\unit-tests\test1.js" time="0.3920" failures="0">
+    <testcase name="sampleUnitTests Should return 200" time="0.3540" classname="Should return 200">
     </testcase>
-    <testcase name="sampleUnitTests Assert title" time="0.0640" classname="Assert title">
+    <testcase name="sampleUnitTests Assert title" time="0.0380" classname="Assert title">
     </testcase>
   </testsuite>
 </testsuites>

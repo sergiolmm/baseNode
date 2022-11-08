@@ -50,6 +50,7 @@ jobs:
         mkdir buildartifacts
         mkdir deploymenttemplates
 
+
     # Archieve build artifact
     - name: Archive Application
       run: |

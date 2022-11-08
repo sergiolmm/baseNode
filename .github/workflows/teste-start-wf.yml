@@ -37,7 +37,10 @@ jobs:
       run: |
           echo $VAR1 $VAR2 $VAR3 $VAR4.
 
-
+  build:
+    name: Build and Run tests
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v2
 
     - name: Use Node.js ${{ env.NODE_VERSION }}

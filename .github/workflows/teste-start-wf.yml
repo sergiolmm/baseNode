@@ -6,6 +6,20 @@ on:
     branches:
       - main
 
+
+env:
+  AZURE_WEBAPP_NAME: "devOpsCTC"    # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: "Application"      # set this to the path to your web app project, defaults to the repository root
+  NODE_VERSION: '8.11.1'                # set this to the node version to use
+  RESOURCEGROUPNAME: "devOpsCTC-rg"
+  LOCATION: "South Central US"
+  HOSTINGPLANNAME: "devOpsCTC-plan"
+  APPINSIGHTLOCATION: "South Central US"
+  SKU: "S1 Standard"
+  DATABASEACCOUNTID: "devopsctc"
+  DATABASEACCOUNTLOCATION: "eastasia"
+
+
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest

@@ -34,7 +34,7 @@ describe('sampleUnitTests', function () {
 
             res.on('end', function () {
                 console.log(data);
-                assert.equal(true, data.includes('<title>Express - Node.js Express Application</title>'), 'Title should be Express - Node.js Express Application.');
+                assert.equal(true, data.includes('<title>SLMM GCS teste</title>'), 'Title should be Express - Node.js Express Application.');
                 done();
             })
         });

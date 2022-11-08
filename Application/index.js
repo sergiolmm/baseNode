@@ -11,8 +11,12 @@ var app = express();
 //app.use(logger('dev'));
 app.set('title','Express - Node.js Express Application')
 app.use('/', (req,res) => {
-    res.send("<title>Express - Node.js Express Application</title><br>Hello turma...");
+    res.send("<title>SLMM GCS teste</title><br>Hello turma...<h1>OK</h1");
 });
+app.use('/users', (req,res) => {
+    res.send("<title>SLMM GCS teste</title><br>Hello turma...<h1>Vamos tentar ver os dados do banco ....</h1>");
+});
+
 
 //process.env.NODE_ENV = "production";
 

@@ -1,0 +1,50 @@
+s
+npm start
+s
+git push -u origin --all
+git push -u master --all
+git push  --all
+cd ..
+cd Tests
+gulp unittest
+cd ..
+npm install gulp
+cd Tests
+gulp unittest
+node gulpfile.js
+npm install 
+node gulpfile.js
+gulp
+npx --version
+npm install --global gulp-cli
+gulp --version
+gulp
+npm install --save-dev gulp
+gulp
+gulp --tasks
+gulp unittest
+cd..
+cd ..
+ls
+https://github.com/sergiolmm/devOpsCTC.git
+git clone https://github.com/sergiolmm/devOpsCTC.git
+cd..
+cd GCS
+ls
+https://github.com/sergiolmm/baseNode.git
+git clone https://github.com/sergiolmm/baseNode.git
+cd baseNode
+npm init
+ls
+mkdir .github
+cd .github
+mkdir workflows
+cxd ..
+cd ..
+cd test
+ld
+ls
+gulp name
+cd
+cd ..
+doskey /history > commands_gulp.txt 

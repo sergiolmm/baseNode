@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var ncp = require('child_process');
 
-gulp.task('name', function() {
+gulp.task('name', async function() {
     var options = {
         stdio: 'inherit'
     };
@@ -10,6 +10,7 @@ gulp.task('name', function() {
     console.log("oi2");
     try {
         output = ncp.execSync('npm test unit-tests/*.js', options);
+        
     }
     catch (err) {
         console.log(err);
